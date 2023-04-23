@@ -52,6 +52,58 @@ main div:nth-of-type(1) p:nth-child(1){
     color: #c4c4c4;
 }
 
+main div:nth-of-type(2) button:nth-child(2)
+{
+ position: relative;
+ bottom: 3.7rem;
+ height:58px;
+ width: 200px;
+ right: 0.4rem;
+ border: none;
+ background: #fff;   
+}
+
+main div:nth-of-type(1) button:nth-child(2){
+    width: 35px;
+    height:35px;
+    position: relative;
+    margin-top: 3rem;
+    border: none;
+}
+
+main div:nth-of-type(1) button:nth-child(3){
+    width:35px;
+    height:35px;
+    position: relative;
+    background: #BDBDBD;
+    border: none;
+    left: 0.5rem;
+}
+
+main div:nth-of-type(1) p:nth-child(6){
+    position: relative;
+    top: 4rem;
+    color: 
+}
+
+.bx-left-arrow-alt{
+    position: relative;
+    right: 5.5rem;
+    bottom: 0.6rem;
+}
+
+.bx-right-arrow-alt{
+    position: relative;
+    right: 1.3rem;
+    bottom: 0.6rem;
+}
+
+main div:nth-of-type(2) i:nth-child(3){
+    position: relative;
+    right: 4.5rem;
+    bottom: 3.5rem;
+}
+
 .nurtown{
     font-weight: bold;
     color:#131313;
@@ -70,6 +122,9 @@ section div:nth-of-type(1) div:nth-child(1){
 
 .rect10{
     margin-top: 1.5rem;
+    position: relative;
+    height:140px;
+    top: 1rem;
 }
 
 .rect9{
@@ -77,32 +132,63 @@ section div:nth-of-type(1) div:nth-child(1){
     height:400px;
 }
 
+
+
+
 section div:nth-of-type(2) p:nth-child(1){
     margin-top: 1rem;
     font-size: 50px;
     color:#BDBDBD;
 }
 
-.container3{
-    margin-top: 2rem;
+
+section:nth-of-type(2) div{
+ display: flex;   
+ gap: 10rem;
 }
 
-section:nth-of-type(2) p:nth-of-type(1){
-    font-size: 40px;
+section:nth-of-type(2) div div:nth-of-type(1) p:nth-child(1){
+    font-size: 100px;
+    position: relative;
+    bottom:63px;
+    }
+
+section:nth-of-type(2) div div:nth-of-type(2) p:nth-child(1){
+    font-size: 15px;
+    position: relative;
+    right: 9rem;
+    margin-top: 2rem;
+    color: #BDBDBD;
+}
+
+section:nth-of-type(2) div div:nth-of-type(3) p:nth-child(1){
+    font-size: 100px;
+    position: relative;
+    bottom: 2.5rem;
+    left: 5rem;
+}
+
+section:nth-of-type(2) div div:nth-of-type(4) p:nth-child(1){
+    font-size: 15px;
+    color: #BDBDBD;
+}
+
+section:nth-of-type(2) p{
+    margin-top: 3rem;
+    font-size: 35px;
     color:#BDBDBD;
 }
 
-
-section:nth-of-type(2) div:nth-of-type(1) {
-    display: flex;
-    gap: 1rem;
+section div div:nth-of-type(4) p:nth-child(1){
+    font-size: 15px;
+    position: relative;
+    bottom: 0.8rem;
+    right: 3rem;
 }
 
 section:nth-of-type(2) div:nth-of-type(1) p:nth-child(1){
     font-weight: bold;
-    font-size: 80px;
     color:#F2F2F2;
-
 }
 
 section:nth-of-type(2) div:nth-of-type(1) p:nth-child(2){
@@ -115,10 +201,32 @@ section:nth-of-type(3) p:nth-of-type(1){
     
 }
 
-.sub{
-    margin-left: 30rem;
+section:nth-of-type(3) div:nth-of-type(1) div:nth-child(1) img{
+    height: 265px;
+    width: 539px;
 }
 
+section:nth-of-type(3) div:nth-of-type(1) img:nth-child(2){
+    height: 265px;
+    width: 539px;
+    margin-top: 1.5rem;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) img:nth-child(1){
+    height: 150px;
+    width: 250px;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) div:nth-child(2) img{
+    width: 440px;
+}
+
+section:nth-of-type(3) div:nth-of-type(2) div:nth-child(3) img{
+    height: 150px;
+    width: 371px;
+    position: relative;
+    bottom: 1.5rem;
+}
 
 section:nth-of-type(3) div:nth-of-type(1){
     display: flex;
@@ -131,35 +239,11 @@ section:nth-of-type(3) div:nth-of-type(2){
     margin-top: 1.5rem;
 }
 
-section:nth-of-type(3) div:nth-of-type(1) img:nth-child(2){
-    height: 270px;
-    width: 556px;
-    margin-top: 1.5rem;
-}
-
-section:nth-of-type(3) div:nth-of-type(2) img:nth-child(2){
-    margin-top: 3rem;
-}
-
 section:nth-of-type(4) div div:nth-of-type(1) p:nth-of-type(6){
     margin-top: 2rem;
     color: #BDBDBD;
 }
 
-.img17{
-    height:250px;
-}
-
-.img16{
-    height: 250px;
-    margin-top: 1.5rem;
-}
-
-.img18{
-    margin-top: 1.5rem;
-    height: 250px;
-    width: 385px;
-}
 
 .btn{
     background: #333333;
@@ -240,30 +324,25 @@ background: #F3F3F3;
 footer{
     height:50vh;
     background: #2c2c2c;
-    margin-top: 3rem;
+    margin-top: 7rem;
     width: 200vh;
     color: #fff;
     border-bottom: 1px solid #808080;
 }
 
-footer img{
-    margin-left: 5rem;
+footer div div:nth-of-type(1) div:nth-child(1) img{
     margin-top: 2rem;
+    margin-left: 3rem;
 }
+
+footer div div:nth-of-type(1) div:nth-child(2).footerlogo{
+    margin-left: 2rem;
+} 
 
 .footersection1{
     display: flex;
     margin-left: 2rem;
-    gap: 9rem;
-}
-
-.footerlogo{
-    margin-left: 3rem;
-}
-
-
-footer div img{
-    height: 70px;
+    gap: 8rem;
 }
 
 .items{
@@ -286,31 +365,31 @@ footer div img{
     margin-right: 1.2rem;
 }
 
-footer div ul:nth-of-type(1) p:nth-child(1){
+footer div ul p:nth-child(1){
     margin-bottom: 0.9rem;
 }
 
-footer div ul:nth-of-type(1) li:nth-child(2){
-    margin-bottom: 0.9rem;
-    list-style: none;
-}
-
-footer div ul:nth-of-type(1) li:nth-child(3){
+footer div ul li:nth-child(2){
     margin-bottom: 0.9rem;
     list-style: none;
 }
 
-footer div ul:nth-of-type(1) li:nth-child(4){
+footer div ul li:nth-child(3){
     margin-bottom: 0.9rem;
     list-style: none;
 }
 
-footer div ul:nth-of-type(1) li:nth-child(5){
+footer div ul li:nth-child(4){
     margin-bottom: 0.9rem;
     list-style: none;
 }
 
-footer div ul:nth-of-type(1) li:nth-child(6){
+footer div ul li:nth-child(5){
+    margin-bottom: 0.9rem;
+    list-style: none;
+}
+
+footer div ul li:nth-child(6){
     list-style: none;
 }
 
@@ -362,32 +441,92 @@ footer div div:nth-of-type(3) p:nth-child(1){
     height:100px;
   }
 
+  section:nth-of-type(2) div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  section:nth-of-type(2) div div:nth-of-type(2) p:nth-child(1){
+    position: relative;
+    left: 4rem;
+    bottom: 21.5rem;
+  }
+  section:nth-of-type(2) div div:nth-of-type(3) p:nth-child(1){
+     position: relative;
+     bottom: 30rem;
+     left: 0.5rem;
+  }
+
+  section:nth-of-type(2) div div:nth-of-type(4) p:nth-child(1){
+    position: relative;
+    bottom: 48.5rem;
+    left: 5rem;
+  }
+
   section div:nth-of-type(2) p:nth-child(1){
     font-size: 25px;
+  }
+
+  section:nth-of-type(1) div:nth-of-type(2) p:nth-child(1){
+    font-size: 20px;
+  }
+
+  section:nth-of-type(1) div:nth-of-type(2) p:nth-child(2){
+    font-size: 12px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
   }
 
   .sub{
     margin-left: 5rem;
   }
 
-  section:nth-of-type(3) div:nth-of-type(1) div:nth-child(1){
-    height: 150px;  
+  section:nth-of-type(3) p:nth-of-type(1){
+    position: relative;
+    bottom: 45rem;
+  }
+  
+  section:nth-of-type(3) div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
   }
 
+  section:nth-of-type(3) div:nth-of-type(1) div:nth-child(1) img{
+    position: relative;
+    bottom: 43rem;
+    height: 100px;  
+    width: 250px;
+  }
+  
   section:nth-of-type(3) div:nth-of-type(1) img:nth-child(2){
-    height: 150px;
+    position: relative;
+    bottom: 44rem;
+    height: 100px;
+    width: 250px;
   }
 
-  .img16{
-    height: 150px;
+  section:nth-of-type(3) div:nth-of-type(2) img:nth-child(1){
+    position: relative;
+    bottom: 44rem;
   }
 
-  .img17{
-    height: 150px;
+  section:nth-of-type(3) div:nth-of-type(2) div:nth-child(2) img{
+    position: relative;
+    left: 0rem;
+    width: 220px;
   }
+  
+  section:nth-of-type(3) div:nth-of-type(2) div:nth-child(3) img{
+    position: relative;
+    bottom: 45rem;
+}
 
-  .img18{
-    height:150px;
+  section:nth-of-type(3) button.btn{
+    position: relative;
+    bottom: 43rem;
   }
 
   section:nth-of-type(3) div:nth-of-type(2){
@@ -395,34 +534,133 @@ footer div div:nth-of-type(3) p:nth-child(1){
     flex-direction: column;
   }
 
+  section:nth-of-type(4) p:nth-of-type(1){
+    position: relative;
+    bottom: 42rem;
+  }
+
+  section:nth-of-type(4) div div:nth-of-type(1) p:nth-child(1){
+    position: relative;
+    margin-top: 4rem;
+  }
+
+  section:nth-of-type(4) div div:nth-of-type(1) p:nth-child(2){
+    position: relative;
+    bottom: 42rem;
+  }
+
+  section:nth-of-type(4) div div:nth-of-type(1) p:nth-child(3){
+    position: relative;
+    bottom: 42rem;
+  }
+
+  section:nth-of-type(4) div div:nth-of-type(1) p:nth-child(4){
+    position: relative;
+    bottom: 42rem;
+  }
+
+  section:nth-of-type(4) div div:nth-of-type(1) p:nth-child(5){
+    position: relative;
+    bottom: 42rem;
+  }
+  
+  section:nth-of-type(4) div div:nth-of-type(1) p:nth-child(6){
+    position: relative;
+    bottom: 42rem;
+  }
+
+  section:nth-of-type(4) div div:nth-of-type(1) button.btn1:nth-child(7){
+    position: relative;
+    bottom: 40rem;
+  }
+  
+  .container4div{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .btn{
     float: left;
     margin-top: 1rem;
   }
 
+  .rect9{
+    width:200px;
+  }
+
   .img12{
-    height: 170px;
+    height: 150px;
+    width: 200px;
+    position: relative;
+    bottom: 38rem;
   }
 
   footer{
-    height: 25vh;
-    width: 70vh;
+    height: 35vh;
+    width: 90vh;
+    position: relative;
+    bottom: 30rem;
   }
 
-  footer div div:nth-of-type(1) img:nth-child(1){
-    margin-left: 2rem;
+  footer div div:nth-of-type(1) div:nth-child(1) img{
+    margin-left: 0.5rem;
+    height: 50px;
   }
 
-  footer div div:nth-of-type(1) div:nth-child(2){
-    margin-left: 2rem;
+  footer div div:nth-of-type(1) div:nth-child(2).footerlogo{
+    font-size: 13px;
+    margin-left: 0.5rem;
   }
   
   .footersection1{
-    margin-left: 2rem;
-    gap: 1rem;
-}
+    gap: 0.5rem;
+  }
 
-    .bxl-facebook{
+  footer div ul p:nth-child(1){
+    font-size: 13px;
+  }
+
+  footer div ul li:nth-child(2){
+    font-size: 13px;
+  }
+
+  footer div ul li:nth-child(3){
+    font-size: 13px;
+  }
+
+  footer div ul li:nth-child(4){
+    font-size: 13px;
+  }
+
+  footer div ul li:nth-child(5){
+    font-size: 13px;
+  }
+
+  footer div ul li:nth-child(6){
+    font-size: 13px;
+  }
+
+  footer div div:nth-of-type(2) p:nth-child(1){
+    font-size: 13px;
+  }
+
+  footer div div:nth-of-type(2) p:nth-child(2){
+    font-size: 13px;
+  }
+
+  footer div div:nth-of-type(2) p:nth-child(3){
+    font-size: 13px;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  footer div div:nth-of-type(2) p:nth-child(4){
+    font-size: 13px;
+    position: relative;
+    bottom: 2rem;
+  }  
+    
+  .bxl-facebook{
         margin-right: 0.5rem;
     }
 
@@ -437,7 +675,20 @@ footer div div:nth-of-type(3) p:nth-child(1){
     .bxl-instagram{
         margin-right: 0.5rem;
     }
-}
+
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
