@@ -206,8 +206,8 @@ footer div div:nth-of-type(3) p:nth-child(1){
     }
     
     footer{
-        height: 35vh;
-        width: 90vh;
+        height: auto;
+        width: 30vh;
         position: relative;
         bottom: 30rem;
       }
